@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #F3E9DF;
+    color: #231C1A;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* ENCABEZADO */
+
+header {
+    background-color: #E8D9CA;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 42px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.marca-texto p {
+    font-size: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* MENU */
+
+nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+nav a {
+    color: #231C1A;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #A47B60;
+}
+
+/* SECCIONES */
+
+section {
+    padding: 70px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 38px;
+    color: #65483C;
+}
+
+section p {
+    max-width: 650px;
+    margin: 20px auto;
+    line-height: 1.9;
+    font-size: 16px;
+}
+
+/* IMAGEN PRINCIPAL */
+
+.bienvenida img {
+    width: 85%;
+    max-width: 650px;
+    height: auto;
+    border-radius: 12px;
+    margin-top: 30px;
+    box-shadow: 0 15px 35px #00000018;
+}
+
+/* PRODUCTOS */
+
+#productos {
+    background-color: #E8D9CA;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #FAF6F1;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 400px;
+    border: 1px solid #D4BEAA;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/* NOSOTROS */
+
+#nosotros {
+    background-color: #F3E9DF;
+}
+
+/* CONTACTO */
+
+#contacto {
+    background-color: #E8D9CA;
+}
+
+.boton {
+    display: inline-block;
+    padding: 15px 28px;
+    margin: 10px;
+    background-color: #65483C;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background-color: #A47B60;
+}
+
+/* PIE DE PAGINA */
+
+footer {
+    background-color: #231C1A;
+    color: #F3E9DF;
+    text-align: center;
+    padding: 30px;
+    font-size: 13px;
+}
+
+/* CELULARES */
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 29px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    .bienvenida img {
+        width: 100%;
+    }
+}
